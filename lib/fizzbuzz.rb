@@ -4,13 +4,8 @@ class FizzBuzz
   def initialize
     @fizzbuzz_array = []
   end
-  # Divisible by 3
-  # return true if divisible by 3 or false if not
-  # Divisible by 5
-  # return true if divisible by 5 or false if not
 
-  # fizzbuzz range creator
-  # set fizzbuzz array of given range with correct fizz/buzz combination
+  # Method must generate array of numbers and fizz/buzz combinations in given range
   def fizzbuzz_iterator range_from , range_to
     (range_from..range_to).each do |i|
       if divisible_by?(i,3) && divisible_by?(i,5)
