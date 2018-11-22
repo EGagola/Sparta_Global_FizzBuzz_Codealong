@@ -8,7 +8,7 @@ describe 'Fibonacci' do
 
   it "The method should create an aray of fibonacci numbers" do
     @fib.generate_fibonacci_array(4000000)
-    expect(@fib.fibonacci_array[2]).to eq 2
+    expect(@fib.fibonacci_array[3]).to eq 2
     expect(@fib.fibonacci_array[-1]).to eq 3524578
   end
 

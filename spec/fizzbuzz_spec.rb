@@ -1,5 +1,7 @@
 require 'spec_helper'
+
 include MathMethods
+
 describe 'FizzBuzz' do
 
   before(:all) do
