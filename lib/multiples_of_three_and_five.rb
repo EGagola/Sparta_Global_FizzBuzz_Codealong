@@ -1,4 +1,4 @@
-class Multiples
+class Multiples 
 
   ## Should sum the multiples of three and five for a given range
   def sum_multiples range_from , range_to

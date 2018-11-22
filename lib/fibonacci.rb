@@ -18,6 +18,7 @@ class Fibonacci
         i += 1
     end
     @fibonacci_array.pop
+    puts @fibonacci_array.length
   end
 
 

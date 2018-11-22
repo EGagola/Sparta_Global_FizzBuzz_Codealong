@@ -1,4 +1,4 @@
-class FizzBuzz
+class FizzBuzz 
   attr_accessor :fizzbuzz_array
 
   def initialize
