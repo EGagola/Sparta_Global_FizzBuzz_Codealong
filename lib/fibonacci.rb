@@ -10,11 +10,11 @@ class Fibonacci
   def generate_fibonacci_array max_number
     @fibonacci_array << 1
     @fibonacci_array << 1
-    fib = 0
+    current_val = 0
     i = 2
-    while fib < max_number do
-      fib = @fibonacci_array[i-1] + @fibonacci_array[i-2]
-        @fibonacci_array << fib
+    while current_val < max_number do
+      current_val = @fibonacci_array[i-1] + @fibonacci_array[i-2]
+        @fibonacci_array << current_val
         i += 1
     end
     @fibonacci_array.pop
